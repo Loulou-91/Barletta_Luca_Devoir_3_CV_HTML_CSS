@@ -8,6 +8,20 @@
 
 body {
     font-family: "Raleway";
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.cv {
+    width: 1160px;
+    margin: 0 auto;
+    background: white;
+}
+
+html {
+  background-color: #f5f5f5;
+  height:100%;
+  margin: 0;
 }
 
 h1, h2 {
@@ -22,9 +36,26 @@ header h1, header p, header a, footer p {
     color: #ffffff
 }
 
+.skills {
+    background-color: #e3e3e3;
+}
+
+.skills h2 {
+    margin-top: 0;
+}
+
+header {
+    padding: 30px;
+}
+
+header h1, header p {
+    margin-top: 0;
+}
+
 figure {
     width: 150px;
     height: 150px;
+    margin: 0;
 }
 
 .profile-picture {
