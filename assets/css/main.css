@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.skills {
+    width: 30%;
+    padding: 30px;
+}
+
+.informations {
+    width: 70%;
+    padding: 30px;
+}
