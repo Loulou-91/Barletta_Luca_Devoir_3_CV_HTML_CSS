@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>Barletta Luca CV</title>
 </head>
 
@@ -23,7 +24,7 @@
                 <div class="personnal-informations">
                     <div class="info">
                         <figure class="figure-icon">
-                            <img src="images/icons/courrier.png " alt="icône mail" class="icon">
+                            <a href="#"><img src="images/icons/courrier.png " alt="icône mail" class="icon"></a>
                         </figure>
                         <a href="mailto:louloubarletta91@gmail.com">Mail</a>
                     </div>
@@ -58,17 +59,45 @@
             <section class="skills">
                 <article class="competences">
                     <h2>Compétences</h2>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>Javascript</p>
-                    <p>PHP</p>
+                    
+                    <div class="competence">
+                        <span class="label">HTML</span>
+                        <span class="stars">★★★★☆</span>
+                    </div>
+
+                    <div class="competence">
+                        <span class="label">CSS</span>
+                        <span class="stars">★★★★☆</span>
+                    </div>
+
+                    <div class="competence">
+                        <span class="label">JavaScript</span>
+                        <span class="stars">★★☆☆☆</span>
+                    </div>
+
+                    <div class="competence">
+                        <span class="label">PHP</span>
+                        <span class="stars">★☆☆☆☆</span>
+                    </div>
                 </article>
 
                 <article class="languages">
                     <h2>Langues</h2>
-                    <p>Français: langue maternelle</p>
-                    <p>Anglais: Niveau B2-C1</p>
-                    <p>Espagnol: Notions</p>
+                    
+                    <div class="language">
+                        <p>Français</p>
+                        <p class="level">Langue maternelle</p>
+                    </div>
+
+                    <div class="language">
+                        <p>Anglais</p>
+                        <p class="level">Niveau B2-C1</p>
+                    </div>
+
+                    <div class="language">
+                        <p>Espagnol</p>
+                        <p class="level">Notions</p>
+                    </div>
                 </article>
 
                 <article class="qualities">
@@ -92,13 +121,16 @@
             </section>
 
             <section class="informations">
-                <article>
+                <article class="profile">
                     <h2>Profil</h2>
+
                     <p>
-                        Lorem ipsum dolor sit amet. Ab laudantium facere ut laudantium dignissimos et enim rerum et odit totam ut voluptates unde ut
-                        quas quaerat. Ut sequi ullam in neque nihil qui saepe libero!<br>
-                        Id consequatur dignissimos nam provident autem hic fugit quod id fugiat
-                        quia et recusandae quos non atque perspiciatis. Qui dolorem dolores sed fuga perspiciatis id cupiditate sunt qui quaerat beatae.
+                        Étudiant motivé suivant une formation professionnelle, doté d’un bon esprit d’analyse et d’une capacité d’adaptation rapide. Sérieux 
+                    et organisé, je sais travailler aussi bien en autonomie qu’en équipe, en respectant les objectifs et les délais fixés.<br>
+                    </p>
+                    <p>
+                        Curieux et investi, je m’intéresse aux domaines liés au numérique et aux nouvelles technologies, et je cherche à développer des 
+                    compétences concrètes tout en consolidant mes acquis théoriques, afin de m’insérer efficacement dans le monde professionnel.
                     </p>
                 </article>
 
@@ -106,47 +138,59 @@
                     <h2>Formations</h2>
 
                     <div class="formation">
-                        <p class="formation-main">Formations Python, HTML et CSS</p>
-                        <p class="formation-place">OpenClassrooms</p>
+                        <div class="formation-left">
+                            <p class="formation-main">Formations Python, HTML et CSS</p>
+                            <p class="formation-place">OpenClassrooms</p>
+                        </div>
                         <time datetime="2025-03/2025-07" class="formation-date">Mars 2025 - Juillet 2025</time>
                     </div>
 
                     <div class="formation">
-                        <p class="formation-main">Baccalauréat Général</p>
-                        <p class="formation-place">Lycée Général et Technologiques Rosa Parks</p>
+                        <div class="formation-left">
+                            <p class="formation-main">Baccalauréat Général</p>
+                            <p class="formation-place">Lycée Général et Technologiques Rosa Parks</p>
+                        </div>
                         <time datetime="2022" class="formation-date">2022</time>
                     </div>
 
                     <div class="formation">
-                        <p class="formation-main">Brevet</p>
-                        <p class="formation-place">Collège Pompidou</p>
+                        <div class="formation-left">
+                            <p class="formation-main">Brevet</p>
+                            <p class="formation-place">Collège Pompidou</p>
+                        </div>
                         <time datetime="2019" class="formation-date">2019</time>
                     </div>
                 </article>
 
-                <article class="stages">
+                <article class="formations">
                     <h2>Stages</h2>
 
-                    <div class="stage">
-                        <p class="stage-main">Cabinet d'avocat</p>
-                        <p class="stage-place">Paris, 8e Arrondissement</p>
-                        <time datetime="2018" class="stage-date">2018</time>
+                    <div class="formation">
+                        <div class="formation-left">
+                            <p class="formation-main">Cabinet d'avocat</p>
+                            <p class="formation-place">Paris, 8e Arrondissement</p>
+                        </div>
+                        <time datetime="2018" class="formation-date">2018</time>
                     </div>
                 </article>
 
-                <article class="professional-experiences">
+                <article class="formations">
                     <h2>Expériences Professionnelles</h2>
 
-                    <div class="experience">
-                        <p class="exp-main">Préparateur - Livreur de commandes</p>
-                        <p class="exp-place">Auchan Drive Montgeron</p>
-                        <time datetime="2024-11/2025-12" class="exp-date">Novembre 2024 - Présent</time>
+                    <div class="formation">
+                        <div class="formation-left">
+                            <p class="formation-main">Préparateur - Livreur de commandes</p>
+                            <p class="formation-place">Auchan Drive Montgeron</p>
+                        </div>
+                        <time datetime="2024-11/2025-12" class="formation-date">Novembre 2024 - Présent</time>
                     </div>
 
-                    <div class="experience">
-                        <p class="exp-main">Serveur</p>
-                        <p class="exp-place">Comptoir Malsherbes, Paris, 7e arrondissement</p>
-                        <time datetime="2022-06/2023-07" class="exp-date">Juin 2022 - Juillet 2023</time>
+                    <div class="formation">
+                        <div class="formation-left">
+                            <p class="formation-main">Serveur</p>
+                            <p class="formation-place">Comptoir Malsherbes, Paris, 7e arrondissement</p>
+                        </div>
+                        <time datetime="2022-06/2023-07" class="formation-date">Juin 2022 - Juillet 2023</time>
                     </div>
                 </article>
 
@@ -155,14 +199,14 @@
         
         <footer>
             <div class="footer-icons">
+                    <figure class="figure-icon">
+                        <a href="#"><img src="images/icons/signe-linkedin.png" alt="icône Linkedin" class="icon"></a>
+                    </figure>
                 <figure class="figure-icon">
-                    <img src="images/icons/signe-linkedin.png" alt="icône Linkedin" class="icon">
+                    <a href="#"><img src="images/icons/github.png" alt="icône GitHub" class="icon"></a>
                 </figure>
                 <figure class="figure-icon">
-                    <img src="images/icons/github.png" alt="icône GitHub" class="icon">
-                </figure>
-                <figure class="figure-icon">
-                    <img src="images/icons/instagram.png" alt="icône Instagram" class="icon">
+                    <a href="#"><img src="images/icons/instagram.png" alt="icône Instagram" class="icon"></a>
                 </figure>
             </div>
 

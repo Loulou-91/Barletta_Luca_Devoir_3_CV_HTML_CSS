@@ -12,3 +12,95 @@ main {
     width: 70%;
     padding: 30px;
 }
+
+main h2 {
+    color: rgb(23, 171, 179);
+    font-weight: 500;
+}
+
+.competences, .languages {
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.stars {
+    color: rgb(23, 171, 179);
+}
+
+.competence {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 8px;
+}
+
+.level {
+    font-weight: 500;
+}
+
+.language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.language p {
+    margin: 5px;
+}
+
+ul {
+    list-style: square;
+    padding-left: 22px;
+    margin: 0 0 20px 0;
+}
+
+ul li {
+    position: relative;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.profile p {
+    text-indent: 20px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.formations {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.formation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.formation-main {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.formation-place {
+    margin: 5px 0 0;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.formation-date {
+    color: rgb(23, 171, 179);
+    font-size: 14px;
+    white-space: nowrap;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.formation-left {
+    display: flex;
+    flex-direction: column;
+}
